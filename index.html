@@ -18,7 +18,10 @@
       <!--nav bar-->
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand text-white fw-bold" href="#">FoodieXpress</a>
+          <a class="navbar-brand text-white fw-bold" href="#" 
+          data-bs-toggle="tooltip" data-bs-title="FoodieXpress" data-bs-placement="bottom">
+          FoodieXpress
+            </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -33,16 +36,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item px-2">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link" href="#">How it works</a>
+                <a class="nav-link" href="#how">How it works</a>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#features">Features</a>
               </li>
               <li class="nav-item px-3">
-                <a class="nav-link cta" href="#">Contact</a>
+                <a class="nav-link cta" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -50,7 +53,7 @@
       </nav>
 
       <!-- hero section -->
-        <section class="hero-section">
+        <section class="hero-section py-5">
             <div class="container">
                 <div class="row g-5">
                     <div class="d-flex">
@@ -60,7 +63,7 @@
                             Discover a wide range of delectable dishes from various cuisines. From appetizers
                             and main courses to desserts and beverages, we have something to satisfy every craving
                         </p>
-                        <button class="btn mt-5">Order Now</button>
+                        <button class="btn mt-5">Order Now!</button>
                     </div>
                     <div class="col-12 col-lg-6">
                         <div class="d-flex justify-content-end">
@@ -76,26 +79,203 @@
     <main>
 
         <!-- Featured section -->
-        <section class="featured">
+        <section class="featured mb-5" id="features">
             <div class="container">
                 <h2 class="text-dark fw-bold text-center py-5">Featured Food Items</h2>
             </div>
 
             <div class="container">
-                <div class="row">
+                <div class="row g-5">
                     <div class="col-12 col-lg-3">
-                        <div class="card border-0">
+                        <div class="card shadow-sm border-0 rounded">
                             <img src="assets/burger.jpg" class="card-img-top" alt="">
                             <div class="card-body">
-                                <h3 class="card-title">Featured Food Item</h3>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                <button class="btn">Order Now</button>
+                                <h3 class="card-title text-center">Featured Food Item</h3>
+                                <p class="card-text text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                <div class="d-flex justify-content-center">
+                                    <button class="btn">Order Now!</button>
+                                </div>     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="card shadow-sm border-0 rounded">
+                            <img src="assets/pizza.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Featured Food Item</h3>
+                                <p class="card-text text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                <div class="d-flex justify-content-center">
+                                    <button class="btn">Order Now!</button>
+                                </div>     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="card shadow-sm border-0 rounded">
+                            <img src="assets/sushi.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Featured Food Item</h3>
+                                <p class="card-text text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                <div class="d-flex justify-content-center">
+                                    <button class="btn">Order Now!</button>
+                                </div>     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="card shadow-sm border-0 rounded">
+                            <img src="assets/lavacake.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Featured Food Item</h3>
+                                <p class="card-text text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                <div class="d-flex justify-content-center">
+                                    <button class="btn">Order Now!</button>
+                                </div>     
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="how-it-works mb-5" id="how">
+            <div class="container">
+                <h2 class="text-dark fw-bold text-center py-5">How FoodieXpress Works</h2>
+            </div>
+
+            <div class="container py-3">
+                <div class="row g-5">
+                    <div class="col-12 col-lg-6">
+                        <div class="p-3 d-flex flex-column justify-content-center shadow-sm rounded">
+                            <span><ion-icon name="search" class="icon"></ion-icon></span>
+                            <h3 class="fw-bold text-dark how-it-works">Browse our extensive menu</h3>
+                            <p class="how-it-works-text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="p-3 d-flex flex-column justify-content-center shadow-sm rounded">
+                            <span><ion-icon name="search" class="icon"></ion-icon></span>
+                            <h3 class="fw-bold text-dark how-it-works">Place your order</h3>
+                            <p class="how-it-works-text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="p-3 d-flex flex-column justify-content-center shadow-sm rounded">
+                            <span><ion-icon name="search" class="icon"></ion-icon></span>
+                            <h3 class="fw-bold text-dark how-it-works">Track your delivery</h3>
+                            <p class="how-it-works-text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="p-3 d-flex flex-column justify-content-center shadow-sm rounded">
+                            <span><ion-icon name="search" class="icon"></ion-icon></span>
+                            <h3 class="fw-bold text-dark how-it-works">Enjoy your meal</h3>
+                            <p class="how-it-works-text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial section -->
+        <section class="testimonials mb-5">
+            <div class="container">
+                <h2 class="text-white fw-bold text-center py-5">Testimonials</h2>
+            </div>
+
+            <div class="container">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container py-5">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-flex flex-column align-items-center text-center">
+                                            <div class="testimonial-card">
+                                                <img src="assets/sarah.jpg" width="150px" class="rounded-circle pb-4" alt="">
+                                                <p class="testimonial-text pb-2">
+                                                    Discover a wide range of delectable dishes from various cuisines. From appetizers and 
+                                                    main courses to desserts and beverages, we have something to satisfy every craving.
+                                                </p>
+                                                <h3 class="testimonial-name">Sarah</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container py-5">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-flex flex-column align-items-center text-center">
+                                            <div class="testimonial-card">
+                                                <img src="assets/john.jpg" width="150px" class="rounded-circle pb-4" alt="">
+                                                <p class="testimonial-text pb-2">
+                                                    Discover a wide range of delectable dishes from various cuisines. From appetizers and 
+                                                    main courses to desserts and beverages, we have something to satisfy every craving.
+                                                </p>
+                                                <h3 class="testimonial-name">John Doe</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer section -->
+        <footer id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <h3 class="fw-bold pb-3">Visit us</h3>
+                        <p>1234 Foodie Lane, Cityville, <br>State, Country</p>
+                        <a href="mailto:info@example.com" class="text-dark">info@example.com</a>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <h3 class="fw-bold pb-3">Our Links</h3>
+                        <div class="d-flex flex-column">
+                            <a href="#" class="text-dark">Home</a>
+                            <a href="#" class="text-dark">How It Works</a>
+                            <a href="#" class="text-dark">Features</a>
+                            <a href="#" class="text-dark">Contact</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <h3 class="fw-bold pb-3">Our Links</h3>
+                        <div class="d-flex">
+                            <a href="#" class="text-dark px-2"><ion-icon name="logo-facebook" class="icon"></ion-icon></a>
+                            <a href="#" class="text-dark px-2"><ion-icon name="logo-instagram" class="icon"></ion-icon></a>
+                            <a href="#" class="text-dark px-2"><ion-icon name="logo-github" class="icon"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center copyright py-3"> &copy; 2024 all right reserved by foodiexpress</p>
+        </footer>
 
     </main>
 
@@ -109,6 +289,11 @@
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
   </body>
 </html>
 

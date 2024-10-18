@@ -24,6 +24,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -110,4 +111,101 @@ h2 {
     font-size: 4.4rem;
     line-height: 1.3;
 }
+
+.card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.6rem;
+    color: #777;
+}
+
+
+/* How It works*/
+.how-it-works-title {
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+
+}
+
+.how-it-works-text {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    line-height: 1.7;
+}
+
+.icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    padding: 1.2rem;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    color: var(--white-color);
+    margin-bottom: 1.6rem;
+}
+
+/* Testimonial */
+.testimonials {
+    background-color: var(--background-color);
+}
+
+.testimonial-text, .testimonial-name {
+    color: #048E7B;
+}
+
+.testimonial-card {
+    width: 50%;
+}
+
+h3{
+    font-size: 2.4rem
+}
+
+
+
+
+
+
+span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='yellow' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: white;
+}
+
+/* change hamburger button border color */
+ button.navbar-toggler {
+  border-color: #fff;
+}
+
+/* change navbar background on collapse */
+@media (max-width: 982px) {
+  nav .navbar-nav {
+    background-color: #048e7c74;
+    padding: 2rem;
+    backdrop-filter: blur(5px);
+  }
+
+  .hero-section{
+    text-align: center;
+  }
+  h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.navbar-brand:hover{
+  color: #048E7B ;
+}
+
+
+.copyright{
+  font-size: 1.4rem;
+  color: #777;
+}
+
+
+
+
 
