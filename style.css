@@ -104,6 +104,11 @@ h1 {
     border-radius: 4px;
 }
 
+.btn:hover{
+    background-color: black;
+    color: var(--white-color);
+}
+
 
 /* FEATURED SECTION */
 
